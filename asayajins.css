@@ -1,0 +1,165 @@
+/* ===== GERAL ===== */
+body {
+  background-color: #f3f3f3;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* ===== CORES ===== */
+.bg-saiyajin {
+  background: linear-gradient(90deg, #ff6600, #ff9900);
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  transition: 0.4s;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.nav-link:hover {
+  color: #ffe699 !important;
+}
+
+/* ===== HEADER ===== */
+header {
+  background-image: url('images/header_saiyajin.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+}
+
+/* ===== INFORMAÇÕES ===== */
+.info-container p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 1.2rem;
+}
+
+.info-destaques .info-card {
+    background-color: #fff0f5; /* Rosa claro, tema Saiyajins/ajuste conforme saga */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.info-destaques .info-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.info-destaques h4 {
+    color: var(--primary-color); /* Mantém cor do tema da saga */
+    margin-bottom: 0.8rem;
+}
+
+.info-destaques p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ===== CARDS DA SAGA ===== */
+.row .card {
+  background: linear-gradient(145deg, #f9f9f9, #e0e0e0);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 260px; /* menor largura */
+  margin: 0 auto;
+}
+
+.row .card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 180px; /* altura menor e uniforme */
+}
+
+.row .card-body {
+  padding: 15px;
+}
+
+.row .card-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #ffcc00;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px #000;
+}
+
+.row .card-text {
+  font-size: 0.95rem;
+  text-align: center;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Hover efeito */
+.row .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .row .card {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* ===== CARROSSEL ===== */
+#carrossel {
+  margin-top: 0 !important;
+}
+.carousel-item img {
+  max-height: 480px;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+.carousel-item img:hover {
+  transform: scale(1.03);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+/* ===== CARDS ===== */
+.card {
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 1rem;
+}
+.hover-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+/* ===== GALERIA ===== */
+#galeria img {
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+#galeria img:hover {
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: linear-gradient(90deg, #ff6600, #ff9900);
+  font-size: 0.95rem;
+}

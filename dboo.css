@@ -1,0 +1,213 @@
+/* ===== CORES PRINCIPAIS ===== */
+:root {
+    --primary-color: #ff4081; /* Rosa Boo */
+    --secondary-color: #ff80ab; /* Rosa claro */
+    --text-light: #ffffff;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin-top: 70px; /* Espaço para navbar fixa */
+}
+
+/* ===== NAVBAR ===== */
+.navbar.bg-boo {
+    background-color: var(--primary-color) !important;
+}
+
+/* ===== HEADER ===== */
+header.bg-boo {
+    background-color: var(--primary-color);
+}
+
+/* ===== CARROSSEL ===== */
+#carrossel .carousel-inner img {
+    height: 450px;
+    object-fit: cover;
+}
+
+/* ===== INFORMAÇÕES ===== */
+#informacoes {
+  background: linear-gradient(135deg, #ff7bc1, #ffb6f9);
+  color: #fff;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  border: 3px solid #fff;
+  box-shadow: 0 0 30px rgba(255, 105, 180, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#informacoes:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 45px rgba(255, 182, 255, 0.8);
+}
+
+#informacoes h2 {
+  font-size: 2.3rem;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+#informacoes .descricao {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.15);
+  max-width: 850px;
+  transition: background 0.3s ease;
+}
+
+#informacoes .descricao:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+
+#carrossel .carousel-control-prev-icon,
+#carrossel .carousel-control-next-icon {
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+}
+
+/* ===== INFORMAÇÕES ===== */
+#informacoes h2 {
+    color: var(--primary-color);
+}
+
+#informacoes p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* ===== CARDS ===== */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+}
+
+.hover-card .card-title {
+    color: var(--primary-color);
+}
+
+.hover-card .card-text {
+    color: #555;
+}
+
+/* ===== GALERIA ===== */
+#galeria h2 {
+    color: var(--primary-color);
+}
+
+#galeria img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== VÍDEO ===== */
+#video h2 {
+    color: var(--primary-color);
+}
+
+#video p {
+    color: #666;
+}
+
+/* ===== FOOTER ===== */
+footer.bg-boo {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* ====== FOOTER BOO ====== */
+.footer-boo {
+  background: linear-gradient(135deg, #ff4f9a, #ff9ad5, #ffc4eb);
+  color: white;
+  border-top: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 -4px 20px rgba(255, 85, 170, 0.4);
+  position: relative;
+}
+
+.footer-boo h5 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+.footer-boo p {
+  margin-bottom: 0.4rem;
+  font-weight: 500;
+}
+
+/* ====== ÍCONES SOCIAIS ====== */
+.footer-boo .social-icons a {
+  color: #fff;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.footer-boo .social-icons a i {
+  font-size: 1.3rem;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* ====== HOVER EFEITOS ====== */
+.footer-boo .social-icons a:hover {
+  transform: translateY(-3px) scale(1.1);
+  color: #ffe6fa;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+.footer-boo a[href*="instagram"]:hover i {
+  color: #e1306c;
+}
+.footer-boo a[href*="tiktok"]:hover i {
+  color: #000000;
+}
+.footer-boo a[href*="whatsapp"]:hover i {
+  color: #25d366;
+}
+.footer-boo a[href*="mailto"]:hover i {
+  color: #ffd166;
+}
+
+/* ====== RESPONSIVO ====== */
+@media (max-width: 768px) {
+  .footer-boo .social-icons a {
+    display: block;
+    margin: 8px 0;
+  }
+}
+
+/* ====== ANIMAÇÃO DE FUNDO (SUAVE PULSO) ====== */
+@keyframes pulse-bg {
+  0% { box-shadow: 0 -4px 20px rgba(255, 85, 170, 0.4); }
+  50% { box-shadow: 0 -4px 25px rgba(255, 150, 200, 0.6); }
+  100% { box-shadow: 0 -4px 20px rgba(255, 85, 170, 0.4); }
+}
+
+.footer-boo {
+  animation: pulse-bg 4s ease-in-out infinite;
+}
+

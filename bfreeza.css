@@ -1,0 +1,205 @@
+/* ============================
+   Configurações Globais
+============================ */
+body {
+    background-color: #f8f8f8;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+/* ============================
+   Navbar
+============================ */
+.navbar {
+    background: linear-gradient(90deg, #6600cc, #cc33ff);
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: #ffccff !important;
+}
+
+/* ============================
+   Header
+============================ */
+header {
+    background-image: url('images/header_freeza.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 4rem 1rem 2rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* ============================
+   Carrossel
+============================ */
+.carousel-item img {
+    max-height: 480px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.03);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+/* ===== INFORMAÇÕES SAGA FREEZA ===== */
+.informacoes {
+  background: linear-gradient(180deg, #7701c6 0%, #6a1b9a 100%);
+  color: #000000;
+  border-radius: 25px;
+  padding: 60px 50px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.6);
+}
+
+.informacoes h2 {
+  font-family: 'Impact', sans-serif;
+  color: #ffffff;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 35px;
+  font-size: 2.2rem;
+}
+
+.informacoes p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #f0f0f0;
+  text-align: justify;
+  max-width: 850px;
+  margin: 15px auto;
+}
+
+/* ===== INFO CARDS ===== */
+.info-destaques {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.info-card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 25px;
+  width: 300px;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.info-card h3 {
+  color: #ffffff;
+  text-shadow: 2px 2px #000;
+  font-size: 1.35rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.info-card p {
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.info-card:hover {
+  transform: translateY(-6px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* ============================
+   Cards da Saga
+============================ */
+.card {
+    border: none;
+    border-radius: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+/* ============================
+   Galeria
+============================ */
+#galeria img {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* ============================
+   Vídeo
+============================ */
+.ratio iframe {
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* ============================
+   Footer
+============================ */
+footer {
+    font-size: 0.95rem;
+    background: linear-gradient(90deg, #6600cc, #cc33ff);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* ============================
+   Responsividade
+============================ */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    .card-img-top {
+        height: 200px;
+    }
+    .carousel-item img {
+        max-height: 350px;
+    }
+}
+

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Ball Z</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== CABEÇALHO ===== -->
+    <header class="bg-dark text-white text-center py-4 shadow">
+        <h1 class="display-5 fw-bold">Dragon Ball Z</h1>
+        <nav>
+            <ul class="nav justify-content-center mt-3">
+                <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#informacoes">Informações</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#sagas">Sagas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== CARROSSEL ===== -->
+    <section class="carousel-section my-4">
+        <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+            </div>
+
+            <div class="carousel-inner rounded-4 shadow">
+                <div class="carousel-item active">
+                    <img src="images/kamihouse.jpg" class="d-block carousel-img" alt="Goku">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/dragonballcriança.jpg" class="d-block carousel-img" alt="Vegeta">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/sayajin.jpg" class="d-block carousel-img" alt="Gohan">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ===== HOME ===== -->
+    <main id="home" class="text-center my-5">
+        <section class="hero mb-5 container">
+            <h2>Bem-vindo ao universo Dragon Ball Z!</h2>
+            <p>Descubra curiosidades, personagens, sagas e batalhas lendárias que marcaram gerações.</p>
+        </section>
+
+        <section class="cards container d-flex justify-content-center flex-wrap gap-4">
+            <div class="card personagem">
+                <img src="images/goku2.jpg" class="card-img-top" alt="Goku">
+                <div class="card-body">
+                    <h5 class="card-title">Goku</h5>
+                    <p>O protagonista, símbolo de força, humildade e determinação.</p>
+                </div>
+            </div>
+
+            <div class="card personagem">
+                <img src="images/vegeta2.jpg" class="card-img-top" alt="Vegeta">
+                <div class="card-body">
+                    <h5 class="card-title">Vegeta</h5>
+                    <p>O príncipe dos Saiyajins, movido por orgulho e rivalidade com Goku.</p>
+                </div>
+            </div>
+
+            <div class="card personagem">
+                <img src="images/gohan2.jpg" class="card-img-top" alt="Gohan">
+                <div class="card-body">
+                    <h5 class="card-title">Gohan</h5>
+                    <p>O filho de Goku, gentil e poderoso, com um grande potencial oculto.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== INFORMAÇÕES ===== -->
+    <section id="informacoes" class="informacoes container my-5">
+        <div class="info-box">
+            <h2 class="text-center mb-4">Sobre Dragon Ball Z</h2>
+
+            <p>
+                <strong>Dragon Ball Z</strong> é um anime japonês criado por <strong>Akira Toriyama</strong> e produzido
+                pela Toei Animation.
+                Ele estreou em 1989 como continuação direta de <strong>Dragon Ball</strong>, acompanhando
+                <strong>Goku</strong> já adulto em novas aventuras que misturam artes marciais, poderes cósmicos e a
+                busca constante por superação.
+            </p>
+
+            <p>
+                A série se tornou um fenômeno mundial por seus combates intensos, transformações lendárias e personagens
+                marcantes.
+                Cada episódio carrega a essência do espírito de luta, da amizade e da coragem — valores que conquistaram
+                milhões de fãs ao redor do mundo.
+                Ao longo de sua trajetória, Dragon Ball Z redefiniu o conceito de batalhas nos animes, apresentando
+                níveis de poder cada vez mais insanos e momentos emocionantes que marcaram gerações.
+            </p>
+
+            <p>
+                A história é dividida em várias <strong>sagas</strong>, cada uma com inimigos e desafios únicos: os
+                <strong>Sayajins</strong>, <strong>Freeza</strong>, <strong>Cell</strong> e <strong>Majin Buu</strong>.
+                Cada uma dessas fases mostra o crescimento de Goku e de seus amigos, que sempre lutam para proteger a
+                Terra e o universo, mesmo diante de forças que parecem invencíveis.
+            </p>
+
+            <div class="info-destaques">
+                <div class="info-card">
+                    <h3>🌌 A Jornada de Goku</h3>
+                    <p>
+                        Goku é o coração da série — um guerreiro puro e determinado que busca se tornar mais forte a
+                        cada desafio.
+                        Mesmo sendo um Sayajin, ele usa seus poderes para o bem e inspira todos com sua bondade e
+                        determinação sem limites.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h3>⚔️ Amizade e Rivalidade</h3>
+                    <p>
+                        A força de Dragon Ball Z também está nas relações.
+                        Rivalidades como a de <strong>Goku e Vegeta</strong> se transformam em respeito e parceria,
+                        enquanto personagens como <strong>Piccolo</strong> e <strong>Gohan</strong> mostram que até os
+                        maiores inimigos podem se tornar grandes aliados.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h3>💥 Transformações Icônicas</h3>
+                    <p>
+                        As transformações <strong>Super Sayajin</strong> se tornaram símbolo do anime,
+                        mostrando o poder que vem da determinação e da esperança.
+                        Desde o lendário grito de Goku em Namekusei até as formas mais divinas, cada transformação é um
+                        marco da superação humana.
+                    </p>
+                </div>
+
+                <div class="info-card">
+                    <h3>🌠 Legado e Cultura</h3>
+                    <p>
+                        Dragon Ball Z inspirou gerações e moldou a cultura pop mundial.
+                        Jogos, filmes, brinquedos e até expressões do cotidiano carregam sua influência — transformando
+                        o anime em um verdadeiro símbolo da perseverança e da energia vital, o <strong>Ki</strong>.
+                    </p>
+                </div>
+            </div>
+
+            <p style="margin-top: 40px; text-align: center;">
+                Com mais de <strong>30 anos de história</strong>, Dragon Ball Z continua sendo uma das maiores obras do
+                mundo dos animes —
+                um lembrete eterno de que sempre existe um novo nível a alcançar e que o verdadeiro poder vem de nunca
+                desistir. ⚡
+            </p>
+        </div>
+    </section>
+
+
+    <!-- ===== GALERIA ===== -->
+    <section id="galeria" class="galeria container my-5 text-center">
+        <h2 class="mb-4">Galeria</h2>
+        <div class="row g-3">
+
+            <!-- Personagem 1 -->
+            <div class="col-6 col-md-3">
+                <img src="images/chichi.jpg" class="img-fluid rounded shadow" alt="Chichi">
+            </div>
+
+            <!-- Personagem 2 -->
+            <div class="col-6 col-md-3">
+                <img src="images/bulma.jpg" class="img-fluid rounded shadow" alt="Bulma">
+            </div>
+
+            <!-- Personagem 3 -->
+            <div class="col-6 col-md-3">
+                <img src="images/goten.jpg" class="img-fluid rounded shadow" alt="Goten">
+            </div>
+
+            <!-- Personagem 4 -->
+            <div class="col-6 col-md-3">
+                <img src="images/trunks.jpg" class="img-fluid rounded shadow" alt="Trunks">
+            </div>
+
+            <!-- Personagem 5 -->
+            <div class="col-6 col-md-3">
+                <img src="images/picollo.jpg" class="img-fluid rounded shadow" alt="Piccolo">
+            </div>
+
+            <!-- Personagem 6 -->
+            <div class="col-6 col-md-3">
+                <img src="images/kuririn.jpg" class="img-fluid rounded shadow" alt="Kuririn">
+            </div>
+
+            <!-- Personagem 7 -->
+            <div class="col-6 col-md-3">
+                <img src="images/yancha.jpg" class="img-fluid rounded shadow" alt="Cell">
+            </div>
+
+            <!-- Personagem 8 -->
+            <div class="col-6 col-md-3">
+                <img src="images/tenshinhan.jpg" class="img-fluid rounded shadow" alt="Majin Buu">
+            </div>
+
+            <!-- Personagem 9 -->
+            <div class="col-6 col-md-3">
+                <img src="images/chaos.jpg" class="img-fluid rounded shadow" alt="Majin Buu">
+            </div>
+
+            <!-- Personagem 10 -->
+            <div class="col-6 col-md-3">
+                <img src="images/kami.jpg" class="img-fluid rounded shadow" alt="Majin Buu">
+            </div>
+
+            <!-- Personagem 11 -->
+            <div class="col-6 col-md-3">
+                <img src="images/bills.jpg" class="img-fluid rounded shadow" alt="Majin Buu">
+            </div>
+
+            <!-- Personagem 12 -->
+            <div class="col-6 col-md-3">
+                <img src="images/whis.jpg" class="img-fluid rounded shadow" alt="Majin Buu">
+            </div>
+
+        </div>
+    </section>
+
+   <!-- ===== SAGAS ===== -->
+<section id="sagas" class="container my-5">
+    <h2 class="text-center mb-4">Sagas de Dragon Ball Z</h2>
+    <div class="row g-4">
+
+        <div class="col-md-3 col-sm-6">
+            <a href="saga-saiyajins.html" class="text-decoration-none">
+                <div class="card saga-card">
+                    <img src="images/sagasayajin.jpg" class="card-img-top" alt="Saga Saiyajins">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Saga Saiyajins</h5>
+                        <p class="card-text text-center">Goku descobre suas origens e enfrenta Vegeta pela primeira vez.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <a href="saga-freeza.html" class="text-decoration-none">
+                <div class="card saga-card">
+                    <img src="images/sagafreeza.jpg" class="card-img-top" alt="Saga Freeza">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Saga Freeza</h5>
+                        <p class="card-text text-center">Em Namekusei, Goku alcança o lendário Super Saiyajin.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <a href="saga-cell.html" class="text-decoration-none">
+                <div class="card saga-card">
+                    <img src="images/sagacell.jpg" class="card-img-top" alt="Saga Cell">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Saga Cell</h5>
+                        <p class="card-text text-center">Os guerreiros Z enfrentam o bio-androide em busca da perfeição.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <a href="saga-boo.html" class="text-decoration-none">
+                <div class="card saga-card">
+                    <img src="images/sagaboo.jpg" class="card-img-top" alt="Saga Majin Boo">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Saga Majin Boo</h5>
+                        <p class="card-text text-center">O universo enfrenta a magia destrutiva do terrível Boo.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+    <!-- ======== VÍDEOS ======== -->
+<section id="videos" class="videos container my-5">
+    <h2 class="text-center mb-4">Vídeos do Universo Dragon Ball Z</h2>
+    <p class="text-center mb-4">Confira clipes, trailers e momentos épicos do anime!</p>
+
+    <div class="row g-4 justify-content-center">
+        <!-- Vídeo 1: Abertura Clássica -->
+        <div class="col-md-4 col-sm-6">
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/xXMxFin0-90" title="Abertura Dragon Ball Z - Cha-La Head-Cha-La" allowfullscreen></iframe>
+                <h5 class="video-title mt-2 text-center">Abertura Clássica de Dragon Ball Z</h5>
+            </div>
+        </div>
+
+        <!-- Vídeo 2: Goku vs Vegeta - Batalha Completa -->
+        <div class="col-md-4 col-sm-6">
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/EPGbB-r7voQ" title="Goku vs Vegeta - Batalha Completa" allowfullscreen></iframe>
+                <h5 class="video-title mt-2 text-center">Goku vs Vegeta - Batalha Completa</h5>
+            </div>
+        </div>
+
+        <!-- Vídeo 3: Top 20 Lutas Mais Épicas -->
+        <div class="col-md-4 col-sm-6">
+            <div class="video-card">
+                <iframe src="https://www.youtube.com/embed/DuQyqcRW44s" title="Top 20 Lutas Mais Épicas de Dragon Ball Z" allowfullscreen></iframe>
+                <h5 class="video-title mt-2 text-center">Top 20 Lutas Mais Épicas</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- ===== FOOTER ===== -->
+<footer class="footer-boo text-center py-4 mt-5 shadow-lg">
+  <div class="container">
+    <h5 class="fw-bold mb-2">Dragon Ball Z | Saga Majin Boo</h5>
+
+    <p class="mb-1">
+      <strong>Desenvolvido por:</strong> Pedro Santos Martins &amp; Gabriel Calegari
+    </p>
+
+    <div class="social-icons mb-3">
+      <!-- Redes de Pedro -->
+      <a href="https://www.instagram.com/martins.ps09" target="_blank" class="mx-3 text-light">
+        <i class="bi bi-instagram"></i> @martins.ps09
+      </a>
+      <a href="https://www.tiktok.com/@mvpepezzz" target="_blank" class="mx-3 text-light">
+        <i class="bi bi-music-note-beamed"></i> @mvpepezzz
+      </a>
+      <a href="mailto:SEU_EMAIL_AQUI" class="mx-3 text-light">
+        <i class="bi bi-envelope"></i> Enviar e-mail
+      </a>
+      <a href="https://wa.me/SEU_NUMERO_AQUI" target="_blank" class="mx-3 text-light">
+        <i class="bi bi-whatsapp"></i> WhatsApp
+      </a>
+
+      <!-- Redes de Gabriel -->
+      <a href="https://www.instagram.com/gabriel.calegari.art" target="_blank" class="mx-3 text-light">
+        <i class="bi bi-instagram"></i> @gabriel.calegari.art
+      </a>
+      <a href="https://www.tiktok.com/@calegari_off" target="_blank" class="mx-3 text-light">
+        <i class="bi bi-music-note-beamed"></i> @calegari_off
+      </a>
+      <a href="https://wa.me/NUMERO_DO_GABRIEL" target="_blank" class="mx-3 text-light">
+        <i class="bi bi-whatsapp"></i> WhatsApp
+      </a>
+    </div>
+
+    <p class="small mb-0">© 2025 Dragon Ball Z | Todos os direitos reservados</p>
+  </div>
+</footer>
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">

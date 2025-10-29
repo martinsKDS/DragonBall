@@ -1,0 +1,125 @@
+/* ===== CORES ===== */
+:root {
+    --primary-color: #4caf50; /* Verde Cell */
+    --secondary-color: #e8f5e9;
+}
+
+/* ===== NAVBAR ===== */
+.navbar.bg-cell {
+    background-color: var(--primary-color);
+}
+
+/* ===== HEADER ===== */
+header.bg-cell {
+    background-color: var(--primary-color);
+}
+
+/* ===== CARROSSEL ===== */
+#carrossel img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* ===== INFORMAÇÕES ===== */
+.informacoes {
+  background: linear-gradient(180deg, #0d1f12 0%, #1a2f1b 100%);
+  color: #e0ffe0;
+  border-radius: 25px;
+  padding: 50px 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.informacoes h2 {
+  font-family: 'Impact', sans-serif;
+  color: #00ff99;
+  text-shadow: 3px 3px #000;
+  margin-bottom: 30px;
+}
+
+.informacoes p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #d0ffd0;
+  text-align: justify;
+}
+
+/* ===== INFO CARDS ===== */
+.info-destaques {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.info-card {
+  background: rgba(0, 255, 153, 0.05);
+  border: 2px solid #00ff99;
+  border-radius: 20px;
+  padding: 25px 15px;
+  width: 260px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 255, 153, 0.5);
+}
+
+.info-card h3 {
+  color: #00ff99;
+  text-shadow: 2px 2px #000;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.info-card p {
+  color: #e0ffe0;
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+/* ===== CARDS ===== */
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.hover-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+/* ===== GALERIA ===== */
+#galeria img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+}
+
+/* ===== VÍDEO ===== */
+#video iframe {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+#video iframe:hover {
+    transform: scale(1.02);
+}
+
+/* ===== FOOTER ===== */
+footer.bg-cell {
+    background-color: var(--primary-color);
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 768px) {
+    #carrossel img {
+        max-height: 300px;
+    }
+}
